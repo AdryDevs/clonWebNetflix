@@ -1,0 +1,105 @@
+body {
+   margin: 0;
+   background-color: black;
+   font-family: Arial, Helvetica, sans-serif;
+}
+
+#container {
+    height: 100vh;
+    width: 100vw;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 4fr 4fr;
+}
+
+#container-top {
+    display: flex;
+}
+
+#container-top-left {
+    width: 50vw;
+    height: 100%;
+    display: flex;
+}
+
+#netflix-logo {
+    width: 14vw;
+}
+
+#container-top-left-menu {
+    display: flex;
+    margin-left: 1vw;
+    justify-content: center;
+    align-items: center;
+}
+
+.links-menu {
+    text-decoration: none;
+    color: white;
+    margin-left: 2vw;
+}
+
+.links-menu:hover {
+    text-decoration: underline;
+}
+
+#container-top-right {
+    width: 50vw;
+    height: 100%;
+    display: flex;
+    justify-content: right;
+    align-items: center;
+}
+
+.material-symbols-outlined {
+    margin-right: 5vw;
+    color: white;
+}
+
+.material-symbols-outlined:hover {
+    transform: scale(1.25);
+    transition: 0.5s;
+}
+
+#container-mid {
+    grid-row: 2/3;
+    grid-column: 1/6;
+    display: flex;
+}
+
+#container-mid-1{
+    width: 20%;
+}
+
+#container-mid-1-txt {
+    height: 25%;
+    margin-left: 3vw;
+    margin-bottom: 1vh;
+    display: flex;
+    align-items: flex-end;
+    font-size: x-large;
+    color: white;
+}
+
+#container-mid-1-img {
+    height: 75%;
+}
+
+#img1 {
+    width: 80%;
+}
+
+.containers-mid {
+    width: 20%;
+    display: flex;
+    justify-content: center;
+}
+
+.imgs {
+    width: 100%;
+}
+
+#container-bot {
+    grid-column: 1/6;
+    grid-row: 3/4;
+}
